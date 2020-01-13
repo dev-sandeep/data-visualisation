@@ -18,8 +18,13 @@ const UseAppContext = () => {
         setState(state => ({ ...state, [customData]: val }));
     }
 
+<<<<<<< HEAD
     function getData(customData) {
         return state[customData];
+=======
+    function getData() {
+        return state;
+>>>>>>> initial plot
     }
 
     return {

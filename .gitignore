@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+./Node-server/Wikid3/node_modules
 
 # testing
 /coverage
